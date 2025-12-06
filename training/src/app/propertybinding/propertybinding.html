@@ -1,0 +1,18 @@
+<h2>{{ name }}</h2>
+<img [src]="image">
+<input [value]="userName">
+<button [disabled]="isDisabled">click me!</button>
+<input type="checkbox" [checked]="isSubscribed">
+<p [innerText]="message"></p>
+<div [class]="isActive ? 'active-box' : 'inactive-box'"></div>
+<div [ngClass]="{
+  'text-success': status === 'success',
+  'text-danger': status === 'error'
+}">
+  Status: {{ status }}
+</div>
+<div [ngStyle]="{
+  'background-color': boxColor,
+  'width.px': boxSize,
+  'height.px': boxSize
+}"></div>
