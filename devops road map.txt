@@ -1,0 +1,163 @@
+✅ PHASE 1 — TYPE SCRIPT (Start Here)
+TypeScript Core Tasks
+ID	Topic
+169609	TypeScript✔️
+169650	What is TypeScript?✔️
+169651	Why use TypeScript?✔️
+169652	Structural Typing✔️
+169653	Type Inference✔️
+169654	Union Types.✔️
+169655	Built-in Types✔️
+169656	Type Guards✔️
+Goal:
+
+Master TS fundamentals → required for Angular + RxJS.
+
+✅ PHASE 2 — ANGULAR (Main Section)
+🔹 Angular Basics
+ID	Topic
+169536	Angular Learning✔️
+169575	Angular✔️
+169667	Architectural Overview✔️
+🔹 Angular Template & Data Binding
+ID	Topic
+169669	Interpolation✔️
+169670	Property Binding✔️
+169671	Event Binding✔️
+169672	#ref variables✔️
+169673	Rendering Topics✔️
+🔹 Angular Directives & Pipes
+ID	Topic
+169674	ngIf, <ng-template>✔️
+169675	ngFor✔️
+169676	ngClass✔️
+169677	ngStyle✔️
+169678	Pipes✔️
+169684	Creating Custom Pipes✔️
+169683	Creating Custom Directives✔️
+🔹 Angular Forms
+ID	Topic
+169679	Forms, Inputs, Validation✔️
+169685	Reactive Forms✔️
+🔹 Angular Services & HTTP
+ID	Topic
+169680	Services and HTTP
+169689	Services with Dependencies
+169696	Working with Files and APIs
+🔹 Angular Routing & Guards
+ID	Topic
+169682	Routing and Guards
+🔹 Angular Lifecycle / Components
+ID	Topic
+169681	Lifecycle Hooks
+169690	Component Bindings
+169692	Component Templates
+🔹 Angular Modules
+ID	Topic
+169686	Modules and Lazy Loading
+🔹 Angular Testing
+ID	Topic
+169688	Testing Pipes
+169689	Services with Dependencies
+169691	Testing Directives
+✅ PHASE 3 — RXJS (Essential for Angular)
+RxJS Fundamentals
+ID	Topic
+169657	What is Observable Pattern
+169658	Observable Lifecycle
+169659	Marble Diagrams
+Operators
+ID	Topic
+169660	Operators
+169661	Filtering
+169662	Rate Limiting
+169663	Transformation
+169664	Combination
+Compare
+ID	Topic
+169665	RxJS vs Promises
+✅ PHASE 4 — UI / CSS / COMPONENT LIBRARIES
+ID	Topic
+169579	Tailwind
+169580	Radix UI
+169581	Shadcn UI
+169582	BEM
+169583	Sass
+169584	PostCSS
+✅ PHASE 5 — FRONTEND FRAMEWORKS (Awareness Only)
+ID	Topic
+169574 / 169615	Vue.js
+169576 / 169617	Svelte
+169577	Solid.js
+169578	Qwik
+169618	SvelteKit
+169611 / 169635	Next.js
+169612 / 169636	Remix
+169616 / 169642	Nuxt.js
+169639	Astro
+169640	VuePress
+169641	Eleventy
+169637	Jekyll
+169638	Hugo
+✅ PHASE 6 — TOOLS & BUILD SYSTEMS
+ID	Topic
+169572	Yarn
+169588	npm Scripts
+169589	esbuild
+169585	Prettier
+169586	ESLint
+✅ PHASE 7 — AUTH & SECURITY
+ID	Topic
+169597	JWT
+169599	SSO
+169600	Basic Auth
+169601	Session Auth
+169602	CORS
+169604	Content Security Policy
+169605	OWASP Security Risks
+✅ PHASE 8 — WEB API FEATURES
+ID	Topic
+169627	WebSockets
+169628	Server Sent Events
+169629	Service Workers
+169630	Location
+169631	Notifications
+169632	Device Orientation
+169633	Payments
+169634	Credentials
+169626	Storage (local/session/indexedDB)
+✅ PHASE 9 — PERFORMANCE
+ID	Topic
+169621	PRPL Pattern
+169622	RAIL Model
+169623	Performance Metrics
+169624	Using Lighthouse
+169625	Using DevTools
+✅ PHASE 10 — TESTING FRAMEWORKS
+ID	Topic
+169593	Playwright
+169594	Cypress
+169595	Vitest
+169596	Jest
+169729	JUnit
+169730	TestNG
+169731	REST Assured
+169732	JMeter
+169733	Cucumber JVM
+169734	Cukes
+169735	JBehave
+169736	Mockito
+✅ PHASE 11 — BACKEND (JAVA ECOSYSTEM)
+ID	Topic
+169716	Spring
+169717	Spring Boot
+169721	Spring Data JPA
+169724	JPA
+169726	JDBC Template
+169725	JDBI3
+169723	EBean
+169720	Quarkus
+169718	Play Framework
+169719	Spark
+169727	SLF4J
+169728	TinyLog

@@ -1,0 +1,19 @@
+<form #userForm="ngForm" (ngSubmit)="onSubmit(userForm)">
+
+  <input
+    name="username"
+    ngModel
+    required
+    minlength="3"
+    #username="ngModel"
+    placeholder="Enter name">
+
+  <!-- Error Messages -->
+  <div *ngIf="username.invalid && username.touched">
+    <p *ngIf="username.errors?.['required']">Name is required</p>
+    <p *ngIf="username.errors?.['minlength']">Minimum 3 characters</p>
+  </div>
+
+  <button [disabled]="userForm.invalid">Submit</button>
+
+</form>

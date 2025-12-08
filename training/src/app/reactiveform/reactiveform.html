@@ -1,0 +1,19 @@
+<form [formGroup]="userForm" (ngSubmit)="submit()">
+
+  <input formControlName="name" placeholder="Name">
+
+  <div *ngIf="userForm.controls['name'].invalid && userForm.controls['name'].touched">
+    <p *ngIf="userForm.controls['name'].errors?.['required']">Name is required</p>
+    <p *ngIf="userForm.controls['name'].errors?.['minlength']">Min 3 characters</p>
+  </div>
+
+  <input formControlName="email" placeholder="Email">
+
+  <div *ngIf="userForm.controls['email'].invalid && userForm.controls['email'].touched">
+    <p *ngIf="userForm.controls['email'].errors?.['required']">Email is required</p>
+    <p *ngIf="userForm.controls['email'].errors?.['email']">Invalid email</p>
+  </div>
+
+  <button [disabled]="userForm.invalid">Submit</button>
+
+</form>
