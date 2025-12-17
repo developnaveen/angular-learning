@@ -41,25 +41,25 @@ ID	Topic
 169685	Reactive Forms✔️
 🔹 Angular Services & HTTP
 ID	Topic
-169680	Services and HTTP
-169689	Services with Dependencies
-169696	Working with Files and APIs
+169680	Services and HTTP✔️
+169689	Services with Dependencies✔️
+169696	Working with Files and APIs✔️
 🔹 Angular Routing & Guards
 ID	Topic
-169682	Routing and Guards
+169682	Routing and Guards✔️
 🔹 Angular Lifecycle / Components
 ID	Topic
-169681	Lifecycle Hooks
-169690	Component Bindings
-169692	Component Templates
+169681	Lifecycle Hooks✔️
+169690	Component Bindings✔️
+169692	Component Templates✔️
 🔹 Angular Modules
 ID	Topic
-169686	Modules and Lazy Loading
+169686	Modules and Lazy Loading✔️
 🔹 Angular Testing
 ID	Topic
-169688	Testing Pipes
-169689	Services with Dependencies
-169691	Testing Directives
+169688	Testing Pipes✔️
+169689	Services with Dependencies✔️
+169691	Testing Directives✔️
 ✅ PHASE 3 — RXJS (Essential for Angular)
 RxJS Fundamentals
 ID	Topic
@@ -91,21 +91,21 @@ ID	Topic
 169577	Solid.js
 169578	Qwik
 169618	SvelteKit
-169611 / 169635	Next.js
+169611 / 169635	Next.js✔️
 169612 / 169636	Remix
 169616 / 169642	Nuxt.js
 169639	Astro
-169640	VuePress
-169641	Eleventy
-169637	Jekyll
-169638	Hugo
+169640	VuePress✔️
+169641	Eleventy✔️
+169637	Jekyll✔️
+169638	Hugo✔️
 ✅ PHASE 6 — TOOLS & BUILD SYSTEMS
 ID	Topic
-169572	Yarn
-169588	npm Scripts
-169589	esbuild
-169585	Prettier
-169586	ESLint
+169572	Yarn✔️
+169588	npm Scripts✔️
+169589	esbuild✔️
+169585	Prettier✔️
+169586	ESLint✔️
 ✅ PHASE 7 — AUTH & SECURITY
 ID	Topic
 169597	JWT
@@ -128,10 +128,10 @@ ID	Topic
 169626	Storage (local/session/indexedDB)
 ✅ PHASE 9 — PERFORMANCE
 ID	Topic
-169621	PRPL Pattern
-169622	RAIL Model
-169623	Performance Metrics
-169624	Using Lighthouse
+169621	PRPL Pattern✔️
+169622	RAIL Model✔️
+169623	Performance Metrics✔️
+169624	Using Lighthouse✔️
 169625	Using DevTools
 ✅ PHASE 10 — TESTING FRAMEWORKS
 ID	Topic

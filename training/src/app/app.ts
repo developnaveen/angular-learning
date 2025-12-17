@@ -8,6 +8,8 @@ import { MypipePipe } from './mypipe-pipe';
 import { Highlight } from './highlight';
 import { Formscomponent } from './formscomponent/formscomponent';
 import { Reactiveform } from './reactiveform/reactiveform';
+import { Fetchdata } from './fetchdata';
+import { RouterLink, RouterOutlet } from '@angular/router'; 
 @Component({
   selector: 'app-root',
   templateUrl: './app.html',
@@ -20,8 +22,27 @@ import { Reactiveform } from './reactiveform/reactiveform';
   // imports: [MypipePipe]
   // imports: [Highlight]
   // imports:[Formscomponent]
-  imports: [Reactiveform]
+  // imports: [Reactiveform]
+  // imports: [RouterOutlet, RouterLink]
+
 })
 export class App {
+ // message:any;
 
+  /* constructor(private fd:Fetchdata){
+    console.log(fd.getMessage());
+  }
+
+  load() {
+    this.fd.getMessage().subscribe({
+      next: (res) => {
+        console.log("data", res);
+        this.message = res;
+      },
+      error:(err) => console.error("error", err),
+      complete:() => console.log("request")
+    });
+  } */
+
+  
 }
